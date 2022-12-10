@@ -45,7 +45,7 @@ def forOddNumber(n):
             num = num + 1
         c = c + 1
         r = r - 1
-    print("\nSum of all row, column and diagonals = ",
+    print("\nSum of all rows, columns and diagonals = ",
           n * (n * n + 1) // 2, "\n")
     for i in range(0, n):
         for j in range(0, n):
